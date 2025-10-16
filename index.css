@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url('images/ibg.JPG');
+    background-image: url('images/ibg.jpg');
     font-family: verdana ;
     line-height: 1.6;
     padding: auto;
@@ -259,5 +259,6 @@ text-area:focus {
         width: 80px;
     }
 }
+
 
 
