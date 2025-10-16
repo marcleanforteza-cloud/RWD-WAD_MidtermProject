@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #081f44;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+  animation: slideDown 1s ease-in-out;
+}
+
+header h1 {
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #ccc;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.authors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px 0;
+  padding: 0 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 20px #fff9f0;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: floatUp 1.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 25px rgba(255,255,255,0.3);
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #081f5c;
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.card h2 {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 0.95em;
+  margin: 8px 0 15px;
+}
+
+.socials img{
+  height: 24px;
+  width: 24px;
+  border: none;
+}
+
+.socials a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #fff;
+}
+
+footer {
+  margin-bottom: 20px;
+  color: #999;
+  font-size: 0.9em;
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .authors {
+    flex-direction: column;
+    align-items: center;
+  }
+}

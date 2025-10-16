@@ -1,0 +1,263 @@
+*{
+    margin:auto ;
+    padding:auto ;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/ibg.JPG');
+    font-family: verdana ;
+    line-height: 1.6;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+.desc{
+    text-align: center;
+}
+
+p{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+
+a {
+    padding: auto;
+    margin: auto;
+}
+
+.desc{
+    text-align: center;
+}
+
+
+#log-form {
+    backdrop-filter: blur(50px);
+    color:#000102;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px black;
+    padding: 24px;
+    width: 400px;
+}
+
+.img {
+    text-align: center;
+
+}
+
+.login-btn{
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #01060b;
+}
+.divider {
+  margin: 10px 50px 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  color: #434141d2;
+  font-size: 12px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #434141d2;
+}
+.gg{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 70%;
+    padding: 5px;
+    background: white;
+}
+
+.gg p {
+    font-size: 15px;
+    font-family: verdana;
+    color: black;
+}
+
+
+
+
+
+#log-form h2{
+    color: #000021;
+    margin-bottom: 14px;
+    font-size: 35px;
+    font-family: "lobster";
+
+
+}
+
+#log-form p {
+    color: #000046;
+}
+
+.form-group{
+    display: block;
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 4px;
+    width: 100%;
+    border: 1px solid ;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+} 
+
+input[required] {
+    border-left: 4px solid #09263a ;
+}
+
+input:focus,
+select:focus,
+text-area:focus {
+    outline: none;
+    border: 1px solid rgb(156, 183, 206);
+    box-shadow: 0 0 4px rgb(46, 67, 134);
+
+}
+
+
+.container a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "bungee";
+    text-shadow: black;
+
+}
+
+.container a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#registration-form a {
+    text-align: center;
+    width: auto;
+}
+
+.top{
+    text-align: left;
+    background: whitesmoke;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    gap: 80%;
+}
+
+.top img{
+    padding: auto;
+    margin: auto;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        gap: 0;
+        padding: 60px 0 20px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .top {
+        gap: calc(100% - 100px);
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #log-form {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px;
+        backdrop-filter: blur(15px);
+    }
+
+    .img img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .container a {
+        width: 100%;
+    }
+
+    .gg {
+        width: 100%;
+        margin: auto;
+    }
+
+    .divider {
+        margin: 10px 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #log-form {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .img img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+

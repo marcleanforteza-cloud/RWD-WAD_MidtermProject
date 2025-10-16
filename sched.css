@@ -1,0 +1,185 @@
+*{
+	text-align: center;
+}
+
+body{
+	background: #d9e1f1;
+	padding: auto;
+	margin: auto;
+}
+
+.head{
+	background: #00006c;
+	padding: 2px;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 50px;
+    text-shadow: 5px 5px #00003b;
+    font-family: "bungee";
+    
+}
+
+/*-------------------------------*/
+
+
+.bsis{
+	display: flex;
+	text-align: center;
+	gap: 10px;
+	padding: 10px;
+
+}
+
+.bsis div{
+	width: 100%;
+	background: #cb4c46;
+	border-radius: 30px;
+}
+
+.bsis div:hover{
+	width: 100%;
+	background: #ff8478;
+	box-shadow: 0 5px 16px #3c0000;
+	
+}
+
+
+/*-------------------------------*/
+
+.bab{
+	display: flex;
+	text-align: center;
+	gap: 10px;
+	padding: 10px;
+
+}
+
+.bab div{
+	width: 100%;
+	background: #31487a;
+	border-radius: 30px;
+}
+
+.bab div:hover{
+	width: 100%;
+	background: #8fb3e2;
+	box-shadow: 0 5px 16px #1e2e4f;
+}
+
+/*-------------------------------*/
+
+.bsais{
+	display: flex;
+	text-align: center;
+	gap: 10px;
+	padding: 10px;
+
+}
+
+.bsais div{
+	width: 100%;
+	background: #e6cc00;
+	border-radius: 30px;
+}
+
+.bsais div:hover{
+	width: 100%;
+	background: #f1ee8e;
+	box-shadow: 0 5px 16px #e69b00;
+}
+
+/*-------------------------------*/
+
+.bssw{
+	display: flex;
+	text-align: center;
+	gap: 10px;
+	padding: 10px;
+
+}
+
+.bssw div{
+	width: 100%;
+	background: #7e3285;
+	border-radius: 30px;
+}
+
+.bssw div:hover{
+	width: 100%;
+	background: #e0b6e4;
+	box-shadow: 0 5px 16px #47034e;
+}
+
+/*-------------------------------*/
+
+.bsa{
+	display: flex;
+	text-align: center;
+	gap: 10px;
+	padding: 10px;
+
+}
+
+.bsa div{
+	width: 100%;
+	background: #ffd000;
+	border-radius: 30px;
+}
+
+.bsa div:hover{
+	width: 100%;
+	background: #ffff8a;
+	box-shadow: 0 5px 16px #ffff00;
+}
+
+/*-------------------------------*/
+
+.act{
+	display: flex;
+	text-align: center;
+	gap: 10px;
+	padding: 10px;
+
+}
+
+.act div{
+	width: 100%;
+	background: #ffa652;
+	border-radius: 30px;
+}
+
+.act div:hover{
+	width: 100%;
+	background: #ffcd90;
+	box-shadow: 0 5px 16px #ff7b00;
+}
+
+/*-------------------------------*/
+
+h3{
+	color: white;
+	text-shadow: 1px 1px black;
+	font-family: "Pixelify Sans", sans-serif;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.but{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}
+
+button{
+	height: 50px;
+	width: 100px;
+	border: 3px solid black;
+}
